@@ -1,0 +1,52 @@
+html,
+body {
+  background-color: #FFF;
+}
+
+p {
+  font-size: 28pt;
+  margin: 10px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+canvas {
+  display: none;
+}
+
+#doors {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  font-size: 32pt;
+  margin: 0px;
+  display: inline-block;
+  height: auto;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+}
+
+.divider{
+  width: 1px;
+  height: 9px;
+  display:flex;
+}
+
+.door {
+  width: 200px;
+  height: 200px;
+  background-image: url("door.png");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64pt;
+  margin: 10px;
+}
+
